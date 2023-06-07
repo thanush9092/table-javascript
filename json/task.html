@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./task.css">
+    <script src="./task.js">
+
+    </script>
+    
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-7 ">
+                <div class="form" >
+                    <p id='showData' class="m-5"></p>
+                </div>
+            </div>
+            <div class="col">
+                <h2 class="m-5 px-7">Registration Form</h2>
+
+
+
+
+
+
+                
+                <!-- NAME -->
+                <div class="row m-4">
+                    <input type="text" id="name" placeholder="Name" class="p-2">
+                </div>
+                <span class="span" id="error"></span>
+
+
+
+
+
+
+                <!-- age -->
+                <div class="row m-4">
+                      <input type="number" placeholder="Age " id="age" class="p-2">
+                </div>
+                <span class="span" id="error1"></span>                
+                <div class="row"> 
+                  
+                  
+
+
+
+                <!-- phonenumber -->
+                <div class="row m-4">
+                    <input type="tel" placeholder="Phone Number" id="number" class="p-2">
+                </div>
+                    <span class="span" id="mob"></span>
+                <div class="row">
+                    <div class="col m-4">
+                    <button class="btn btn-primary" type="submit"  id="sub" value="Submit Form" onclick="myfunction()">Submit Form</button>
+                    </div>
+                </div>   
+            </div>
+        </div>
+     </div>
+     <hr>
+      <!-- filter -->
+
+<input type="text" id="myInput" onkeyup="myFunction()" placeholder="Search for names.." title="Type in a name">
+
+<table id="myTable">
+  <tr class="header">
+    <th style="width:100%;">Names</th>
+  </tr>
+  <tr>
+    <td>Tamilselvan</td>
+  </tr>
+  <tr>
+    <td>Vignesh</td>
+  </tr>
+  <tr>
+    <td>Mukil</td>
+  </tr>
+  <tr>
+    <td>Kanagaraj</td>
+  </tr>
+  <tr>
+    <td>Gokul</td>
+  </tr>
+  <tr>
+    <td>Kannnan</td>
+  </tr>
+
+</table>
+  
+</body>
+</html>

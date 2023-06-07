@@ -1,0 +1,70 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.container
+{
+    width: 100%;
+    height: 800px;
+}
+.gender{
+    font-size: 17px;
+}
+.gender input{
+    margin-right: 18px;
+}
+span.span{
+   margin-left: 25px; 
+}
+.form{
+    text-align: center;
+}
+
+   
+    table, th, td {
+      border: solid 1px rgb(19, 14, 14);
+      border-collapse: collapse;
+      padding: 10px 20px;
+      text-align: center;
+    }
+    th {
+      font-weight:bold;
+    }
+  
+
+    
+
+    * {
+        box-sizing:border-box;
+      }
+      
+      .myInput {
+    
+        background-position: 10px 10px;
+        background-repeat: no-repeat;
+        width: 100%;
+        font-size: 16px;
+        padding: 12px 20px 12px 40px;
+        border: 1px solid #ddd;
+        margin-bottom: 12px;
+      }
+      
+      .myTable {
+        border-collapse: collapse;
+        width: 100%;
+        border: 1px solid #ddd;
+        font-size: 18px;
+      }
+      
+      .myTable th, .myTable td {
+        text-align: left;
+        padding: 12px;
+      }
+      
+      .myTable tr {
+        border-bottom: 1px solid #ddd;
+      }
+      
+      .myTable tr.header, .myTable tr:hover {
+        background-color: #f1f1f1;
+      }
